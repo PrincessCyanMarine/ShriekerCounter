@@ -1,0 +1,28 @@
+{
+  "config.shriekercounter": "Config",
+
+  "config.shriekercounter.active": "Active",
+  "config.shriekercounter.showWhenZero": "Show when zero",
+  "config.shriekercounter.scale": "Scale",
+
+  "config.shriekercounter.position": "Position",
+  "config.shriekercounter.position.anchor": "Anchor",
+  "config.shriekercounter.position.x": "X",
+  "config.shriekercounter.position.y": "Y",
+  "config.shriekercounter.position.anchor.topLeft": "Top Left",
+  "config.shriekercounter.position.anchor.topCenter": "Top Center",
+  "config.shriekercounter.position.anchor.topRight": "Top Right",
+  "config.shriekercounter.position.anchor.centerLeft": "Center Left",
+  "config.shriekercounter.position.anchor.centerCenter": "Center Center",
+  "config.shriekercounter.position.anchor.centerRight": "Center Right",
+  "config.shriekercounter.position.anchor.bottomLeft": "Bottom Left",
+  "config.shriekercounter.position.anchor.bottomCenter": "Bottom Center",
+  "config.shriekercounter.position.anchor.bottomRight": "Bottom Right",
+  "config.shriekercounter.position.anchor.custom": "Custom",
+
+  "category.shriekercounter.keys": "Shrieker Counter",
+  "key.shriekercounter.config": "Open Config (Shrieker Counter)",
+  "key.shriekercounter.toggle": "Toggle Active (Shrieker Counter)",
+
+  "gamerule.shriekerNotifyOnChange": "Notify player on shrieker count change"
+}
