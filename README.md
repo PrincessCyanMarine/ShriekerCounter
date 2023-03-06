@@ -1,9 +1,11 @@
 ## This mod adds a HUD element that counts how many sculk shriekers were activated by the player
+The counter automatically reduces after the 10 minute cooldown and ignores player placed shriekers
 
 # Sides
-Required server side (I wanted to make it client side only, but didn't find a way to read shrieker warnings without the server)
+Required server side (I wanted to make it client side only, but didn't find a way to read the shrieker count without the server)
 
 Technically optional on client (of course the HUD element won't show for players who don't have the mod installed, but they will still receive the "notification" from the shriekerNotifyOnChange gamerule)
+
 
 # Customization
 ## Position
@@ -45,7 +47,7 @@ scale = 1.0
 /shriekercounter scale <0.0-10.0>
 
 ## Show when zero
-Whether the counter should be shown when the player's warning level is equal to 0
+Whether the counter should be shown when the player's count is equal to 0
 
 #### value
 Boolean (true or false)
@@ -69,6 +71,10 @@ active = true
 
 /shriekercounter show
 
+## Resource Packs
+Resource packs can be used to customize the counter's appearence
+
+[Example resource packs are available here](https://github.com/PrincessCyanMarine/ShriekerCounter/tree/main/resourcepacks)
 
 ## Gamerule shriekerNotifyOnChange
 If true, whenever a player's shrieker count changes, that player will hear a noteblock note and receive a chat message saying
