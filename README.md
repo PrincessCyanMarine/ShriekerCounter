@@ -3,7 +3,7 @@
 # Sides
 Required server side (I wanted to make it client side only, but didn't find a way to read shrieker warnings without the server)
 
-Technically optional on client
+Technically optional on client (of course the HUD element won't show for players who don't have the mod installed, but they will still receive the "notification" from the shriekerNotifyOnChange gamerule)
 
 # Customization
 ## Position
@@ -70,8 +70,13 @@ active = true
 /shriekercounter show
 
 
+## Gamerule shriekerNotifyOnChange
+If true, whenever a player's shrieker count changes, that player will hear a noteblock note and receive a chat message saying
+"Your shrieker count [increased/decreased] to [count]"
 
 # Other stuff
-This mod requires [completeconfig](https://beta.curseforge.com/minecraft/mc-mods/completeconfig) and [YetAnotherConfigLib](https://curseforge.com/minecraft/mc-mods/yacl) is recommended. Both are already included in the main file download
+This mod requires [completeconfig](https://beta.curseforge.com/minecraft/mc-mods/completeconfig) and [YetAnotherConfigLib](https://curseforge.com/minecraft/mc-mods/yacl) is recommended
 
-The "pure" file doesn't include either and therefore requires them to be installed normally
+Complete config is already included in the main file download, YACL isn't
+
+The "pure" file doesn't include either and therefore needs complete config to be installed manually
