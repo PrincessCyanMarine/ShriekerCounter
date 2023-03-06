@@ -74,6 +74,11 @@ active = true
 ## Resource Packs
 Resource packs can be used to customize the counter's appearence
 
+## Example resource packs
+![all](https://user-images.githubusercontent.com/58150571/222997350-ee3cd190-4dee-406e-9047-2760fdea34f7.png)
+
+
+
 [Example resource packs are available here](https://github.com/PrincessCyanMarine/ShriekerCounter/tree/main/resourcepacks)
 
 ## Gamerule shriekerNotifyOnChange
