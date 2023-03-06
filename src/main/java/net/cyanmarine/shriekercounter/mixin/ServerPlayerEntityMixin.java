@@ -6,8 +6,6 @@ import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.block.entity.SculkShriekerWarningManager;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.nbt.NbtCompound;
-import net.minecraft.nbt.NbtOps;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
@@ -41,8 +39,8 @@ public abstract class ServerPlayerEntityMixin {
             PacketByteBuf buf = PacketByteBufs.create();
             buf.writeInt(new_warning_level);
             ServerPlayNetworking.send((ServerPlayerEntity) (Object) this, Channels.UPDATE_WARNING_LEVEL, buf);
-            if (getWorld().getGameRules().getBoolean(ShriekerCounter.SHOULD_MESSAGE_ON_CHANGE)) {
-                this.sendMessage(Text.of("Your shrieker count " +( new_warning_level > warningLevel ? "increased" : "decreased" ) + " to "  + new_warning_level), false);
+            if (warningLevel > -1 && getWorld().getGameRules().getBoolean(ShriekerCounter.SHOULD_MESSAGE_ON_CHANGE)) {
+                this.sendMessage(Text.of("Your shrieker count " +(new_warning_level > warningLevel ? "increased" : "decreased" ) + " to "  + new_warning_level), false);
                 this.playSound(SoundEvents.BLOCK_NOTE_BLOCK_PLING.value(), SoundCategory.NEUTRAL, 0.3f, ((float) ((PlayerEntity) (Object) this).getRandom().nextBetween(0, 3)) - 1.5f);
             }
             warningLevel = new_warning_level;
