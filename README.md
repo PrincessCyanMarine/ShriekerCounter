@@ -2,6 +2,8 @@
 The counter automatically reduces after the 10 minute cooldown and ignores player placed shriekers
 
 
+[DOWNLOAD](https://www.curseforge.com/minecraft/mc-mods/shrieker-counter/files)
+
 [(Inspired by the counter on Yeah Jaron's "Minecraft 100 Days, but I CAN'T JUMP")](https://youtu.be/SXj1FvXyzhs?t=1427)
 
 # Sides
