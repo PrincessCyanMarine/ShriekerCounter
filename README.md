@@ -91,10 +91,10 @@ If true, whenever a player's shrieker count changes, that player will hear a not
 "Your shrieker count [increased/decreased] to [count]"
 
 # Other stuff
-This mod requires [completeconfig](https://beta.curseforge.com/minecraft/mc-mods/completeconfig) and fabric API
+This mod requires [completeconfig](https://beta.curseforge.com/minecraft/mc-mods/completeconfig) and [fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
 [YetAnotherConfigLib](https://curseforge.com/minecraft/mc-mods/yacl) is recommended
 
-Complete config is already included in the main file download, Fabric API and YACL aren't
+#### Complete config is already included in the main file download, Fabric API and YACL aren't
 
 The "pure" file doesn't include any of them and therefore complete config needs to be installed manually
