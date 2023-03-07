@@ -1,6 +1,9 @@
 ## This mod adds a HUD element that counts how many sculk shriekers were activated by the player
 The counter automatically reduces after the 10 minute cooldown and ignores player placed shriekers
 
+
+[(Inspired by the counter on Yeah Jaron's "Minecraft 100 Days, but I CAN'T JUMP")](https://youtu.be/SXj1FvXyzhs?t=1427)
+
 # Sides
 Required server side (I wanted to make it client side only, but didn't find a way to read the shrieker count without the server)
 
