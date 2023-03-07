@@ -95,4 +95,4 @@ This mod requires [completeconfig](https://beta.curseforge.com/minecraft/mc-mods
 
 Complete config is already included in the main file download, Fabric API and YACL aren't
 
-The "pure" file doesn't include any of them and complete config needs to be installed manually
+The "pure" file doesn't include any of them and therefore complete config needs to be installed manually
